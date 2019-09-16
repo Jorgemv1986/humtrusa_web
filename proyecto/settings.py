@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'rest_framework',
     'clientes',
     'compras',
     'factura',
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'productos',
     'proveedor',
     'userProfile',
+    'api',
 ]
 
 MIDDLEWARE = [
